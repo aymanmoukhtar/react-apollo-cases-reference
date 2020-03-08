@@ -13,7 +13,7 @@ import { HttpLink } from 'apollo-link-http';
 import { WebSocketLink } from 'apollo-link-ws';
 import { getMainDefinition } from 'apollo-utilities';
 import { ApolloProvider } from '@apollo/react-hooks';
- 
+
 const wsLink = new WebSocketLink({
   uri: `ws://localhost:6596/graphql`,
   options: {
